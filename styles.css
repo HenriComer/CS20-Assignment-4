@@ -1,0 +1,184 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    height: 100%;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Full height of the viewport */
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;  /* Center horizontally */
+    align-items: center;      /* Center vertically */
+    padding: 40px;
+}
+
+header {
+    background-color: #ff3b30;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+header h1 {
+    display: inline-block;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background-image: url('https://example.com/hotdog-bg.jpg');
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h2 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.2em;
+    margin-top: 10px;
+}
+
+.order-form {
+    background-color: white;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.order-form h3 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #ff3b30;
+}
+
+.order-form label {
+    display: block;
+    font-size: 1.2em;
+    margin: 10px 0 5px;
+}
+
+.order-form input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 1em;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.order-form button {
+    background-color: #ff3b30;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-top: 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.order-form button:hover {
+    background-color: #e0352b;
+}
+
+.order-button {
+    background-color: #ff3b30;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.2em;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.order-button:hover {
+    background-color: #e0352b;
+}
+
+.menu {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.menu h3 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+.menu-item {
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+}
+
+.menu-item img {
+    width: 200px;
+    height: 150px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+.contact {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.contact h3 {
+    font-size: 2em;
+    color: #333;
+}
